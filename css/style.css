@@ -1,0 +1,578 @@
+/* ===================================================
+   MICHELE & ELISABETTA
+   STYLE.CSS - VERSIONE 4.0
+=================================================== */
+
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#F8F3EF;
+    color:#4D3A40;
+
+    font-family:'Montserrat',sans-serif;
+
+    line-height:1.7;
+
+}
+
+/* ==========================
+   LINK
+========================== */
+
+a{
+
+    text-decoration:none;
+
+    transition:.30s;
+
+}
+
+/* ==========================
+   IMMAGINI
+========================== */
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/* ==========================
+   MENU
+========================== */
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:#F8F3EF;
+
+    border-bottom:1px solid #E7D8D0;
+
+}
+
+.menu{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:20px;
+
+}
+
+.menu ul{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    list-style:none;
+
+}
+
+.menu a{
+
+    color:#7A4B5A;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.menu a:hover{
+
+    color:#B17B8D;
+
+}
+
+/* ==========================
+   HOME
+========================== */
+
+.hero{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:80px 20px;
+
+    text-align:center;
+
+}
+
+.logo-principale{
+
+    width:380px;
+
+    margin:0 auto 30px;
+
+}
+
+.hero h1{
+
+    font-family:"Beauty Queen Script",cursive;
+
+    font-size:82px;
+
+    color:#7A4B5A;
+
+    margin-bottom:10px;
+
+}
+
+.hero h2{
+
+    font-size:34px;
+
+    letter-spacing:2px;
+
+    font-weight:400;
+
+    color:#555;
+
+}
+
+.sottotitolo{
+
+    margin-top:15px;
+
+    font-size:24px;
+
+    color:#8A6572;
+
+    font-style:italic;
+
+}
+
+.frase{
+
+    max-width:750px;
+
+    margin:40px auto;
+
+    font-size:24px;
+
+    color:#555;
+
+    line-height:1.8;
+
+}
+
+/* ==========================
+   DECORAZIONE
+========================== */
+
+.decorazione{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin:30px auto;
+
+}
+
+.decorazione span:first-child,
+.decorazione span:last-child{
+
+    width:90px;
+
+    height:1px;
+
+    background:#D9C4B9;
+
+}
+
+.fiore{
+
+    color:#B17B8D;
+
+    font-size:28px;
+
+}
+/* ==========================
+   COUNTDOWN
+========================== */
+
+#countdown{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    padding:18px 35px;
+
+    background:#FFFFFF;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    font-size:26px;
+
+    color:#7A4B5A;
+
+    font-weight:bold;
+
+}
+
+#countdown strong{
+
+    color:#B17B8D;
+
+    font-size:32px;
+
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.sezione{
+
+    max-width:1100px;
+
+    margin:90px auto;
+
+    background:#FFFFFF;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.foto-sezione{
+
+    width:100%;
+
+    height:auto;
+
+    display:block;
+
+}
+
+/* ==========================
+   TESTO CARD
+========================== */
+
+.contenuto{
+
+    padding:50px;
+
+    text-align:center;
+
+}
+
+.contenuto h2{
+
+    font-family:"Beauty Queen Script",cursive;
+
+    font-size:68px;
+
+    color:#7A4B5A;
+
+    margin-bottom:15px;
+
+}
+
+.contenuto h3{
+
+    font-size:30px;
+
+    font-weight:600;
+
+    color:#4D3A40;
+
+    margin:20px 0;
+
+}
+
+.contenuto p{
+
+    font-size:22px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.orario{
+
+    margin:30px 0;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#7A4B5A;
+
+}
+
+/* ==========================
+   PULSANTI
+========================== */
+
+.pulsante{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:16px 38px;
+
+    background:#7A4B5A;
+
+    color:#FFF;
+
+    border-radius:40px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.30s;
+
+}
+
+.pulsante:hover{
+
+    background:#B17B8D;
+
+    transform:translateY(-3px);
+
+}
+/* ==========================
+   ALBUM
+========================== */
+
+.album{
+
+    max-width:900px;
+
+    margin:90px auto;
+
+    text-align:center;
+
+    background:#FFFFFF;
+
+    border-radius:25px;
+
+    padding:50px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.album h2{
+
+    font-family:"Beauty Queen Script",cursive;
+
+    font-size:68px;
+
+    color:#7A4B5A;
+
+    margin-bottom:20px;
+
+}
+
+.album p{
+
+    font-size:22px;
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin:30px auto;
+
+    max-width:700px;
+
+}
+
+.qr{
+
+    width:260px;
+
+    margin:40px auto;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    margin-top:100px;
+
+    padding:60px 20px;
+
+    text-align:center;
+
+    border-top:1px solid #E7D8D0;
+
+}
+
+.frase-footer{
+
+    font-size:24px;
+
+    color:#7A4B5A;
+
+    font-style:italic;
+
+    margin-bottom:20px;
+
+}
+
+footer h3{
+
+    font-family:"Beauty Queen Script",cursive;
+
+    font-size:60px;
+
+    color:#7A4B5A;
+
+    margin-bottom:10px;
+
+}
+
+footer p{
+
+    font-size:20px;
+
+    color:#666;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.menu ul{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.hero{
+
+    padding:50px 20px;
+
+}
+
+.logo-principale{
+
+    width:170px;
+
+}
+
+.hero h1{
+
+    font-size:58px;
+
+}
+
+.hero h2{
+
+    font-size:24px;
+
+}
+
+.frase{
+
+    font-size:20px;
+
+}
+
+.contenuto{
+
+    padding:30px;
+
+}
+
+.contenuto h2{
+
+    font-size:52px;
+
+}
+
+.contenuto h3{
+
+    font-size:24px;
+
+}
+
+.contenuto p{
+
+    font-size:19px;
+
+}
+
+.album{
+
+    padding:30px;
+
+}
+
+.album h2{
+
+    font-size:52px;
+
+}
+
+.qr{
+
+    width:210px;
+
+}
+
+#countdown{
+
+    font-size:20px;
+
+    padding:15px 20px;
+
+}
+
+}
